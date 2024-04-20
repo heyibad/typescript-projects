@@ -1,0 +1,28 @@
+{
+  "name": "oop-bank-cli",
+  "version": "1.0.0",
+  "description": " OOP Bank on CLI",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/tree/main/oop_bank"
+  },
+  "keywords": [
+    "Bank",
+    "cli",
+    "inquirer"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

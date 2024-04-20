@@ -1,0 +1,27 @@
+{
+  "name": "simple_calculator-by-cli-with-ts-inquirer",
+  "version": "1.0.3",
+  "description": "Simple Calculator With TS ft. Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/simple_calculator"
+  },
+ "keywords": [
+    "Simple_Calculator",
+    "TypeScript"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

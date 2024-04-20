@@ -1,0 +1,32 @@
+{
+  "name": "noob_quiz_cli",
+  "version": "1.0.5",
+  "description": " Quiz App on CLI",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/tree/main/quiz_cli"
+  },
+  "keywords": [
+    "Quiz",
+    "cli-app",
+    "inquirer"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.17",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}

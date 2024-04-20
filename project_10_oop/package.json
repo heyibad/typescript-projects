@@ -1,0 +1,28 @@
+{
+  "name": "project_10_oops",
+  "version": "1.0.0",
+  "description": " OOP on CLI",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/project_10_oop"
+  },
+  "keywords": [
+    "OOP",
+    "cli-app",
+    "inquirer"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

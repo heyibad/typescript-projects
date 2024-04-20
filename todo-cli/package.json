@@ -1,0 +1,28 @@
+{
+  "name": "todo-cli_application",
+  "version": "1.0.0",
+  "description": " Todo CLI App",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/todo-cli"
+  },
+  "keywords": [
+    "ATM",
+    "todo-app",
+    "inquirer"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

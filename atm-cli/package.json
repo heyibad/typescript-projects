@@ -1,0 +1,28 @@
+{
+  "name": "atm-cli_app",
+  "version": "1.0.0",
+  "description": " ATM on CLI",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyibad/typescript-projects/atm-cli"
+  },
+  "keywords": [
+    "ATM",
+    "cli-app",
+    "inquirer"
+  ],
+  "author": "Muhammad Ibad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
